@@ -33,4 +33,4 @@ Feel free to fork the repository and submit pull requests. For major changes, pl
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Contact
-If you have any questions or feedback, please contact me at [https://www.linkedin.com/in/huyenmili/)https://www.linkedin.com/in/huyenmili/].
+If you have any questions or feedback, please contact me at [https://www.linkedin.com/in/huyenmili/].
