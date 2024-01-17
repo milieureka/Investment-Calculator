@@ -10,7 +10,6 @@ The Investment Calculator is a risk assessment tool designed to calculate and as
 
 ## Code Structure
 There are 6 classes reponsible to run the program:
-
 - `User`: Storing user's username, password, and a list of investments.
 - `UIManagement`: Encapsulates all user interface and user interactions.
 - `Investment` (Abstract): Base class for different types of investments, have a parent caculation ROI & PnL methods.
@@ -20,18 +19,22 @@ There are 6 classes reponsible to run the program:
 - `Program`: Having main static method to handle execution of this program.
 
 ## Result
-
+![fetch stock price](https://github.com/milieureka/Investment-Calculator/blob/main/UML%20Class%20diagram-Investment%20Program-2.png)
+![result in JSON format](https://github.com/milieureka/Investment-Calculator/blob/main/UML%20Class%20diagram-Investment%20Program-3.png)
+![analysis](https://github.com/milieureka/Investment-Calculator/blob/main/UML%20Class%20diagram-Investment%20Program-4.png)
+![portfolio result](https://github.com/milieureka/Investment-Calculator/blob/main/UML%20Class%20diagram-Investment%20Program-6.png)
 
 ## How to Use
 1. Clone the repository to your local machine.
 2. Ensure you have .NET framework installed.
 3. Navigate to the project directory and build the project.
 4. Execute the program to start calculating investments.
+   
 ## Contributing
-Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+My code won't perfect, I want to adjust the logic of caculation to be more robust. Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Contact
-If you have any questions or feedback, please contact me at [https://www.linkedin.com/in/huyenmili/].
+If you have any questions or feedback, please contact me at discussion.
