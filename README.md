@@ -19,10 +19,18 @@ There are 6 classes reponsible to run the program:
 - `Program`: Having main static method to handle execution of this program.
 
 ## Result
+- Fetching real-time stock prices.
 ![fetch stock price](https://github.com/milieureka/Investment-Calculator/blob/main/UML%20Class%20diagram-Investment%20Program-2.png)
+
+- Here, all stock data are presented in a structured JSON format.
 ![result in JSON format](https://github.com/milieureka/Investment-Calculator/blob/main/UML%20Class%20diagram-Investment%20Program-3.png)
+
+- Risk assessment base on amount Invested and analized ROI & PnL.
 ![analysis](https://github.com/milieureka/Investment-Calculator/blob/main/UML%20Class%20diagram-Investment%20Program-4.png)
+
+- Showcase portfolio items, type of risks, etc.
 ![portfolio result](https://github.com/milieureka/Investment-Calculator/blob/main/UML%20Class%20diagram-Investment%20Program-6.png)
+
 
 ## How to Use
 1. Clone the repository to your local machine.
