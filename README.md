@@ -6,7 +6,7 @@ C#, Newtonsoft.Json, .NET Application.
 ## Overview
 The Investment Calculator is a risk assessment tool designed to calculate and assess soley or porfolio investment. This application fetch real data from internet and leverages object-oriented principles to manage user choice of investment (stock/ bond), investment portfolios risk assessments.
 
-![UML Diagram](https://github.com/milieureka/Investment-Calculator/blob/main/UML%20Class%20diagram-Investment%20Program.png)
+![UML Diagram](https://github.com/milieureka/Investment-Calculator/blob/main/UML%20Class%20diagram-Investment%20Program-1.png)
 
 ## Code Structure
 There are 6 classes reponsible to run the program:
