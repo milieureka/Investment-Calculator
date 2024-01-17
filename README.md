@@ -39,7 +39,7 @@ There are 6 classes reponsible to run the program:
 4. Execute the program to start calculating investments.
    
 ## Contributing
-My code won't perfect, I want to adjust the logic of caculation to be more robust. Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+My code aren't perfect, I want to adjust the logic of risk assessment to be more robust. Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
