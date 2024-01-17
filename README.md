@@ -19,7 +19,7 @@ There are 6 classes reponsible to run the program:
 - `Program`: Having main static method to handle execution of this program.
 
 ## Result
-- Fetching real-time stock prices.
+- Enter user information and fetching real-time stock prices.
 ![fetch stock price](https://github.com/milieureka/Investment-Calculator/blob/main/UML%20Class%20diagram-Investment%20Program-2.png)
 
 - Here, all stock data are presented in a structured JSON format.
