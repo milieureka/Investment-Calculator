@@ -12,15 +12,13 @@ $ROI = \left( \frac{\text{Current Value of Investment} - \text{Cost of Investmen
 
 **P\&L** is determined by:
 
-$\text{P\&L} = \text{Current Value of Investment} - \text{Cost of Investment}$
+$\text{PnL} = \text{Current Value of Investment} - \text{Cost of Investment}$
 
 
 **Risk assessment** specifically through the standard deviation of returns
 
 $\text{Risk (Standard Deviation)} = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} (R_i - \bar{R})^2}$
-$\[
-\text{Risk (Standard Deviation)} = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} (R_i - \bar{R})^2}
-\]$
+
 
 
 Where:
