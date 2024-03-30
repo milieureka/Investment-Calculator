@@ -7,13 +7,16 @@ C#, Newtonsoft.Json, .NET Application.
 The Investment Calculator is a risk assessment tool designed to calculate and assess soley or porfolio investment. This application fetch real data from internet and leverages object-oriented principles to manage user choice of investment (stock/ bond), investment portfolios risk assessments.
 
 **ROI** is calculated as:
-$\ROI = \left( \frac{\text{Current Value of Investment} - \text{Cost of Investment}}{\text{Cost of Investment}} \right) \times 100\% \$
+
+$ROI = \left( \frac{\text{Current Value of Investment} - \text{Cost of Investment}}{\text{Cost of Investment}} \right) \times 100\%$
 
 **P&L** is determined by:
-$\P\&L = \text{Current Value of Investment} - \text{Cost of Investment} \$
+
+$P\&L = \text{Current Value of Investment} - \text{Cost of Investment}$
 
 **Risk assessment** specifically through the standard deviation of returns
-$\\text{Risk (Standard Deviation)} = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} (R_i - \bar{R})^2} \$
+
+$\text{Risk (Standard Deviation)} = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} (R_i - \bar{R})^2}$
 
 Where:
 - $`R_i`$ is the return of the investment in the ith period,
