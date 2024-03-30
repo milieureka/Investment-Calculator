@@ -10,9 +10,10 @@ The Investment Calculator is a risk assessment tool designed to calculate and as
 
 $ROI = \left( \frac{\text{Current Value of Investment} - \text{Cost of Investment}}{\text{Cost of Investment}} \right) \times 100\%$
 
-**P&L** is determined by:
+**P\&L** is determined by:
 
 $P\&L = \text{Current Value of Investment} - \text{Cost of Investment}$
+
 
 **Risk assessment** specifically through the standard deviation of returns
 
@@ -20,7 +21,7 @@ $\text{Risk (Standard Deviation)} = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} (R_i - \b
 
 Where:
 - $`R_i`$ is the return of the investment in the ith period,
-- $`R_avg`$ is the average return of the investment,
+- $`\bar{R}`$ is the average return of the investment,
 - $`N`$ is the total number of observations.
 
 
