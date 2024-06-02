@@ -26,15 +26,19 @@ Where:
 **UML Diagram** 
 ![UML Diagram](https://github.com/milieureka/Investment-Calculator/blob/main/UML%20Class%20diagram-Investment%20Program-1.png)
 
-## Code Structure
-There are 6 classes reponsible to run the program:
-- `User`: Storing user's username, password, and a list of investments.
-- `UIManagement`: Encapsulates all user interface and user interactions.
-- `Investment` (Abstract): Base class for different types of investments, have a parent caculation ROI & PnL methods.
-  - `BondInvestment`& `StockInvestment`: Inherit methods from base class and overide the Task to fetch real data from Yahoo Finance.
-- `RiskAssessment`: Provides functionality to assess investment risks.
-- `Portfolio`: Aggregates multiple investments and provides portfolio analysis.
-- `Program`: Having main static method to handle execution of this program.
+## Object-Oriented Programming (OOP) Concepts Details
+- Inheritance: BondInvestment and StockInvestment inherit from the abstract class Investment, which defines shared properties and methods like amountInvested, roi, and AssessRisk.
+- Encapsulation: Properties and methods are encapsulated within classes, such as Investment and User, ensuring that data is hidden from external access and is accessible only through methods in the class.
+- Polymorphism: Methods like AssessRisk are overridden in derived classes (BondInvestment and StockInvestment), allowing them to implement specific risk assessment logic.
+**Class structure**
+- UIManagement: Manages user interactions and controls the flow of the application, facilitating operations like creating users, adding investments, and displaying analyses. The public userSelection() method make program responds to user inputs, which guide the program flow.
+- User + Portfolio: Handles user data and their investment portfolios. Each User has a Portfolio, which aggregates multiple Investments.
+- Risk Assessment: Contains logic to assess the risk of different types of investments. The method AssessBondRisk suggests specialized risk assessment for bonds.
+- Investment: use Newtonsoft.Json to retrieving data from online databases (such as Yahoo Finance). Newtonsoft.Json can convert C# objects into JSON and JSON into C# objects (serialization and deserialization, respectively), it is helpful to fetch real-time financial data, which is essential for evaluating the ROI and performance of investments.
+- Portfolio: has methods to calculate total ROI and to assess the risk of the entire portfolio, crucial for giving users a holistic view of their investments' performance.
+Program Flow 
+- The Main() function in the Program class likely initializes the application, setting up necessary components and possibly loading initial data.
+Technologies and Libraries
 
 ## Result
 - Enter user information and fetching real-time stock prices.
