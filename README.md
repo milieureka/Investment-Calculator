@@ -39,7 +39,6 @@ Where:
 - Portfolio: has methods to calculate total ROI and to assess the risk of the entire portfolio, crucial for giving users a holistic view of their investments' performance.
 Program Flow 
 - The Main() function in the Program class likely initializes the application, setting up necessary components and possibly loading initial data.
-Technologies and Libraries
 
 ## Result
 - Enter user information and fetching real-time stock prices.
