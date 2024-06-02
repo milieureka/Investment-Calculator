@@ -30,6 +30,7 @@ Where:
 - Inheritance: BondInvestment and StockInvestment inherit from the abstract class Investment, which defines shared properties and methods like amountInvested, roi, and AssessRisk.
 - Encapsulation: Properties and methods are encapsulated within classes, such as Investment and User, ensuring that data is hidden from external access and is accessible only through methods in the class.
 - Polymorphism: Methods like AssessRisk are overridden in derived classes (BondInvestment and StockInvestment), allowing them to implement specific risk assessment logic.
+
 **Class structure**
 - UIManagement: Manages user interactions and controls the flow of the application, facilitating operations like creating users, adding investments, and displaying analyses. The public userSelection() method make program responds to user inputs, which guide the program flow.
 - User + Portfolio: Handles user data and their investment portfolios. Each User has a Portfolio, which aggregates multiple Investments.
