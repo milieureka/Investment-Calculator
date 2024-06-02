@@ -14,19 +14,16 @@ $ROI = \left( \frac{\text{Current Value of Investment} - \text{Cost of Investmen
 
 $\text{PnL} = \text{Current Value of Investment} - \text{Cost of Investment}$
 
-
 **Risk assessment** specifically through the standard deviation of returns
 
 $\text{Risk (Standard Deviation)} = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} (R_i - \bar{R})^2}$
-
-
 
 Where:
 - $`R_i`$ is the return of the investment in the ith period,
 - $`\bar{R}`$ is the average return of the investment,
 - $`N`$ is the total number of observations.
 
-
+**UML Diagram** 
 ![UML Diagram](https://github.com/milieureka/Investment-Calculator/blob/main/UML%20Class%20diagram-Investment%20Program-1.png)
 
 ## Code Structure
